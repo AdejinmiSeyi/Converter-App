@@ -1,88 +1,97 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 main {
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    left: 89px;
-    top: 83px;
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 89px;
+  top: 83px;
 
-    background: #FBF7EE;
+  background: #fbf7ee;
 }
 
+input {
+    position: relative;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #585dfe;
+}
+
+button {
+  padding: 10px;
+  background: #fbf7ee;
+  border: none;
+  border-radius: 2px;
+}
 #top {
-    position: absolute;
-    width: 550px;
-    height: 260px;
-    left: 0px;
-    top: 0px;
+  position: absolute;
+  width: 550px;
+  height: 260px;
+  left: 0px;
+  top: 0px;
 
-    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
-    }
-    
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+}
+
 #unit {
-        position: absolute;
-        width: 211px;
-        height: 51.23px;
-        left: 169px;
-        top: 80px;
+  position: absolute;
+  width: 211px;
+  height: 51.23px;
+  left: 169px;
+  top: 80px;
 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style:  normal;
-        font-weight: 800;
-        font-size: 97.5723px;
-        line-height: 24px;
-        /* or 25% */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 97.5723px;
+  line-height: 24px;
+  /* or 25% */
 
-        text-align:  center;
+  text-align: center;
 
-        color: #FFFFFF;
+  color: #ffffff;
+}
 
-       
-    }
-    
 #title {
-        position: absolute;
-        width: 448.4px;
-        height: 38px;
-        left: 51px;
-        top: 53px;
+  position: absolute;
+  width: 448.4px;
+  height: 38px;
+  left: 51px;
+  top: 53px;
 
-        font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 22px;
-        line-height: 38px;
-        /* identical to box height, or 173% */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  /* identical to box height, or 173% */
 
-        text-align: center;
-        letter-spacing: -0.05em;
+  letter-spacing: -0.05em;
 
-        color: #FFFFFF;
+  color: #ffffff;
+}
 
-   }
-   
 #bottom {
-        position: absolute;
-        width: 346px;
-        height: 215px;
-        left: 102px;
-        top: 297px;
-   }
-   
-  .first {
-      font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
+  position: absolute;
+  width: 346px;
+  height: 215px;
+  left: 102px;
+  top: 297px;
+}
 
-text-align: center;
+.first {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
 
-color: #1A1921;
-
-  }
+  color: #1a1921;
+}
