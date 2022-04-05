@@ -17,10 +17,10 @@ main {
 
 input {
     position: relative;
-  width: 350px;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid #585dfe;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #585dfe;
 }
 
 button {
